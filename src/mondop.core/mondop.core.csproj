@@ -10,10 +10,11 @@
     <Company>It-actief</Company>
     <Product>Mondop</Product>
     <Copyright>Copyright 2018 by It-actief</Copyright>
-    <PackageProjectUrl>www.mondop.com</PackageProjectUrl>
+    <PackageProjectUrl>http://www.mondop.com</PackageProjectUrl>
     <RepositoryUrl>https://github.com/MondopDotCom/mondop.core</RepositoryUrl>
     <PackageLicenseUrl>https://github.com/MondopDotCom/mondop.core/blob/master/LICENSE</PackageLicenseUrl>
     <Description>Package containing guard class Ensure.IsNotNull to check for errors in constructor depency injection.</Description>
+    <PackageReleaseNotes>1.0.0 - Added Ensure.IsNotNull</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>

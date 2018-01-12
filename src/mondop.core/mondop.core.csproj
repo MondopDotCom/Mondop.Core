@@ -4,6 +4,7 @@
     <TargetFramework>netstandard1.0</TargetFramework>
     <AssemblyName>Mondop.Core</AssemblyName>
     <RootNamespace>Mondop.Core</RootNamespace>
+    <Title>Mondop.Core</Title>
     <Version>1.0.0</Version>
     <Authors>Marcel Vroone</Authors>
     <Company>It-actief</Company>
@@ -12,6 +13,7 @@
     <PackageProjectUrl>www.mondop.com</PackageProjectUrl>
     <RepositoryUrl>https://github.com/MondopDotCom/mondop.core</RepositoryUrl>
     <PackageLicenseUrl>https://github.com/MondopDotCom/mondop.core/blob/master/LICENSE</PackageLicenseUrl>
+    <Description>Package containing guard class Ensure.IsNotNull to check for errors in constructor depency injection.</Description>
   </PropertyGroup>
 
 </Project>

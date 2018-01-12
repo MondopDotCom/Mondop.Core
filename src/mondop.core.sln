@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mondop.core", "mondop.core\mondop.core.csproj", "{1CDA8EA3-611C-489C-A6A6-662F7C8AC90E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mondop.Core", "mondop.core\Mondop.Core.csproj", "{1CDA8EA3-611C-489C-A6A6-662F7C8AC90E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mondop.core.tests", "mondop.core.tests\mondop.core.tests.csproj", "{1B465CA0-75DB-4D23-A5E0-8FD1AEE7AABE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mondop.Core.Tests", "mondop.core.tests\Mondop.Core.Tests.csproj", "{1B465CA0-75DB-4D23-A5E0-8FD1AEE7AABE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

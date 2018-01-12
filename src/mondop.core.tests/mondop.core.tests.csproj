@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\mondop.core\mondop.core.csproj" />
+    <ProjectReference Include="..\mondop.core\Mondop.Core.csproj" />
   </ItemGroup>
 
 </Project>

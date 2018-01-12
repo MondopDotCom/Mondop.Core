@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace mondop.core
+namespace Mondop.Core
 {
     public static class Ensure
     {

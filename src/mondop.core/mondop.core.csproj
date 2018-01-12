@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <AssemblyName>Mondop.Core</AssemblyName>
+    <RootNamespace>Mondop.Core</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>Marcel Vroone</Authors>
+    <Company>It-actief</Company>
+    <Product>Mondop</Product>
+    <Copyright>Copyright 2018 by It-actief</Copyright>
+    <PackageProjectUrl>www.mondop.com</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MondopDotCom/mondop.core</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/MondopDotCom/mondop.core/blob/master/LICENSE</PackageLicenseUrl>
+  </PropertyGroup>
+
+</Project>

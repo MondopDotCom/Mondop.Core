@@ -1,5 +1,6 @@
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Mondop.Core;
 using System;
 using System.Text;
 
@@ -24,7 +25,7 @@ namespace mondop.core.tests
             StringBuilder test = null;
             Action action = () => Ensure.IsNotNull(test, nameof(test));
 
-            action.ShouldThrowExactly<ArgumentNullException>();
+            action.Should().ThrowExactly<ArgumentNullException>();
         }
     }
 }

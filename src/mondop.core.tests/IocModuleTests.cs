@@ -8,7 +8,7 @@ namespace Mondop.Core.Tests
     public class IocModuleTests
     {
         private IocModule module;
-        private IIoCContainer mockContainer = Substitute.For<IIoCContainer>();
+        private readonly IIoCContainer mockContainer = Substitute.For<IIoCContainer>();
 
         [TestInitialize]
         public void TestInitialize()

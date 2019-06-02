@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
@@ -13,7 +13,7 @@
     <PackageProjectUrl>http://www.mondop.com</PackageProjectUrl>
     <RepositoryUrl>https://github.com/MondopDotCom/mondop.core</RepositoryUrl>
     <PackageLicenseUrl>https://github.com/MondopDotCom/mondop.core/blob/master/LICENSE</PackageLicenseUrl>
-    <Description>Package containing guard class Ensure.IsNotNull to check for errors in constructor depency injection.</Description>
+    <Description></Description>
     <PackageReleaseNotes>1.0.0 - Added Ensure.IsNotNull
 1.0.1 - Corrected casing to Camel
 1.1.0 - Moved to .net standard 1.3, added IFile and IDirectory
@@ -25,6 +25,7 @@
 
   <ItemGroup>
     <PackageReference Include="Mondop.Abstractions" Version="1.0.3" />
+    <PackageReference Include="Mondop.Guard" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

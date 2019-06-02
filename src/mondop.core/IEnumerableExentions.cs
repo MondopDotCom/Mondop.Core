@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 
+using Mondop.Guard;
+
 namespace Mondop.Core
 {
     public static class IEnumerableStringExentions

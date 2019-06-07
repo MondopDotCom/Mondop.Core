@@ -5,26 +5,27 @@
     <AssemblyName>Mondop.Core</AssemblyName>
     <RootNamespace>Mondop.Core</RootNamespace>
     <Title>Mondop.Core</Title>
-    <Version>1.1.2</Version>
+    <Version>1.2.0</Version>
     <Authors>Marcel Vroone</Authors>
     <Company>It-actief</Company>
     <Product>Mondop</Product>
     <Copyright>Copyright 2018 by It-actief</Copyright>
     <PackageProjectUrl>http://www.mondop.com</PackageProjectUrl>
     <RepositoryUrl>https://github.com/MondopDotCom/mondop.core</RepositoryUrl>
-    <PackageLicenseUrl>https://github.com/MondopDotCom/mondop.core/blob/master/LICENSE</PackageLicenseUrl>
-    <Description></Description>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <Description>A package containing some extension classes</Description>
     <PackageReleaseNotes>1.0.0 - Added Ensure.IsNotNull
 1.0.1 - Corrected casing to Camel
 1.1.0 - Moved to .net standard 1.3, added IFile and IDirectory
+1.20 - IFile, IDirectory moved to Mondop.Mockables
 1.1.1 - Updated Mondop.Abstraction package to 1.0.3
 1.1.2 - Added IEnumerable&lt;string&gt;.Join extension</PackageReleaseNotes>
-    <AssemblyVersion>1.1.2.0</AssemblyVersion>
-    <FileVersion>1.1.2.0</FileVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Mondop.Abstractions" Version="1.0.3" />
     <PackageReference Include="Mondop.Guard" Version="1.0.0" />
   </ItemGroup>
 

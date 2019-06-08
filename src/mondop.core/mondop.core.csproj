@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.3</TargetFramework>
+    <TargetFrameworks>net40;net45;netstandard1.3;netstandard2.0</TargetFrameworks>
     <AssemblyName>Mondop.Core</AssemblyName>
     <RootNamespace>Mondop.Core</RootNamespace>
     <Title>Mondop.Core</Title>
-    <Version>1.2.0</Version>
+    <Version>1.2.1</Version>
     <Authors>Marcel Vroone</Authors>
     <Company>It-actief</Company>
     <Product>Mondop</Product>
@@ -19,14 +19,16 @@
 1.1.0 - Moved to .net standard 1.3, added IFile and IDirectory
 1.1.1 - Updated Mondop.Abstraction package to 1.0.3
 1.1.2 - Added IEnumerable&lt;string&gt;.Join extension
-1.20 - IFile, IDirectory moved to Mondop.Mockables</PackageReleaseNotes>
-    <AssemblyVersion>1.2.0.0</AssemblyVersion>
-    <FileVersion>1.2.0.0</FileVersion>
+1.2.0 - IFile, IDirectory moved to Mondop.Mockables
+1.2.1 - Added Multiple Targets</PackageReleaseNotes>
+    <AssemblyVersion>1.2.1.0</AssemblyVersion>
+    <FileVersion>1.2.1.0</FileVersion>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Mondop.Guard" Version="1.0.0" />
+    <PackageReference Include="Mondop.Guard" Version="1.0.1" />
   </ItemGroup>
 
 </Project>

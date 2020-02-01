@@ -5,11 +5,11 @@
     <AssemblyName>Mondop.Core</AssemblyName>
     <RootNamespace>Mondop.Core</RootNamespace>
     <Title>Mondop.Core</Title>
-    <Version>1.2.1</Version>
+    <Version>1.2.2</Version>
     <Authors>Marcel Vroone</Authors>
     <Company>It-actief</Company>
     <Product>Mondop</Product>
-    <Copyright>Copyright 2018 by It-actief</Copyright>
+    <Copyright>Copyright 2020 by It-actief</Copyright>
     <PackageProjectUrl>http://www.mondop.com</PackageProjectUrl>
     <RepositoryUrl>https://github.com/MondopDotCom/mondop.core</RepositoryUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
@@ -20,7 +20,8 @@
 1.1.1 - Updated Mondop.Abstraction package to 1.0.3
 1.1.2 - Added IEnumerable&lt;string&gt;.Join extension
 1.2.0 - IFile, IDirectory moved to Mondop.Mockables
-1.2.1 - Added Multiple Targets</PackageReleaseNotes>
+1.2.1 - Added Multiple Targets
+1.2.2 - Added StringBuilderExtensions</PackageReleaseNotes>
     <AssemblyVersion>1.2.1.0</AssemblyVersion>
     <FileVersion>1.2.1.0</FileVersion>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
